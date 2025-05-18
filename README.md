@@ -1,4 +1,4 @@
-# React + Vite Starter Template
+# React + Vite
 
 A minimal and fast setup for building React applications with **Vite**, including Hot Module Replacement (HMR) and basic ESLint rules to ensure code quality.
 
@@ -30,10 +30,10 @@ Follow these steps to get your project up and running:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/SACHINUPADHYAY414/MobiCart.git
 
 # Navigate into the project directory
-cd your-project-folder
+cd client
 
 # Install dependencies
 npm install
