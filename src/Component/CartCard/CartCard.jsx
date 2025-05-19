@@ -34,7 +34,7 @@ const CartCard = () => {
 
     return (
         <div className="container-fluid mt-3">
-            <div className="container mb-3" style={{ minHeight: "100vh" }}>
+            <div className="container" style={{ maxHeight: "100vh" }}>
                 <div className="row">
                     {/* --- Large screen (desktop/laptop) Image Section --- */}
                     <div
