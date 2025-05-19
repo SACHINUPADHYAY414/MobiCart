@@ -18,6 +18,12 @@ export const Products = [
     category: "Mobiles",
     description:
       "The Samsung Galaxy S24 Ultra 5G offers cutting-edge technology with AI integration, titanium gray finish, and 12GB RAM with 256GB storage. Perfect for high-end users.",
+    ram: "12GB",
+    rom: "256GB",
+    brand: "Samsung",
+    operatingSystem: "Android 14",
+    cpuModel: "Snapdragon 8 Gen 3",
+    cpuSpeed: "3.39 GHz",
   },
   {
     id: 2,
@@ -31,6 +37,12 @@ export const Products = [
     rating: 5,
     ratingCount: 246,
     category: "Mobiles",
+    ram: "4GB",
+    rom: "128GB",
+    brand: "Redmi",
+    operatingSystem: "Android 13",
+    cpuModel: "Snapdragon 4 Gen 2",
+    cpuSpeed: "2.2 GHz",
   },
   {
     id: 3,
@@ -50,6 +62,12 @@ export const Products = [
     rating: 5,
     ratingCount: 4821,
     category: "Mobiles",
+    ram: "6GB",
+    rom: "256GB",
+    brand: "Apple",
+    operatingSystem: "iOS 17",
+    cpuModel: "Apple A16 Bionic",
+    cpuSpeed: "3.46 GHz",
   },
   {
     id: 4,
@@ -68,16 +86,21 @@ export const Products = [
     rating: 4,
     ratingCount: 55535,
     category: "Electronics",
+    ram: "N/A",
+    rom: "N/A",
+    brand: "Boat",
+    operatingSystem: "N/A",
+    cpuModel: "N/A",
+    cpuSpeed: "N/A",
   },
-   {
+  {
     id: 41,
     images: [
-     "https://m.media-amazon.com/images/I/51AC9X+E+3L._SX522_.jpg",
-     "https://m.media-amazon.com/images/I/612z5uvb+wL._SX522_.jpg",
-     "https://m.media-amazon.com/images/I/612sIa8haTL._SX522_.jpg",
-     "https://m.media-amazon.com/images/I/61Y0Jd1i0YL._SX522_.jpg",
-     "https://m.media-amazon.com/images/I/71+R++r86bL._SX522_.jpg",
-
+      "https://m.media-amazon.com/images/I/51AC9X+E+3L._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/612z5uvb+wL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/612sIa8haTL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/61Y0Jd1i0YL._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/71+R++r86bL._SX522_.jpg",
     ],
     name: "Noise Buds N1 in-Ear True Wireless Earbuds with Chrome Finish, 40H of Playtime, Quad Mic with ENC, Ultra Low Latency (Up to 40 Ms), Instacharge (10 Min=120 Min), BT V5.3 (Ice Blue)",
     price: "1,199",
@@ -86,6 +109,12 @@ export const Products = [
     rating: 4,
     ratingCount: 1460,
     category: "Electronics",
+    ram: "N/A",
+    rom: "N/A",
+    brand: "Noise",
+    operatingSystem: "N/A",
+    cpuModel: "N/A",
+    cpuSpeed: "N/A",
   },
   {
     id: 6,
@@ -99,9 +128,36 @@ export const Products = [
     rating: 4,
     ratingCount: 38345,
     category: "Electronics",
+    ram: "N/A",
+    rom: "N/A",
+    brand: "Apple",
+    operatingSystem: "N/A",
+    cpuModel: "Apple H1",
+    cpuSpeed: "N/A",
   },
-  
+  {
+    id: 7,
+    images: [
+      "https://m.media-amazon.com/images/I/61Io5-ojWUL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/51F-1TIRcxL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/71QGsBvLd7L._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/51rzPGs8tEL._SX425_.jpg",
+      "https://m.media-amazon.com/images/I/41WUq6wG92L._SL1500_.jpg"
+    ],
+    name: "OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage)",
+    price: "17998",
+    originalPrice: "20999",
+    discount: "14% off",
+    rating: 4,
+    ratingCount: "345",
+    category: "Mobiles",
+    ram: "8GB",
+    rom: "128GB",
+    brand: "OnePlus",
+    operatingSystem: "Android 14",
+    cpuModel: "Snapdragon 695",
+    cpuSpeed: "2.2 GHz",
+  }
 ];
 
 export default Products;
-
