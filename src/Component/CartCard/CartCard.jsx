@@ -296,7 +296,7 @@ const CartCard = () => {
             </div>
 
             {/* Fixed bottom buttons for mobile */}
-            <div className="d-md-none fixed-bottom bg-white p-2 border-top shadow">
+            <div className="d-md-none fixed-bottom bg-white p-2 border-top shadow pt-3">
                 <div className="d-flex gap-2">
                     <button className="btn btn-warning w-50 fw-semibold" onClick={handleAddToCart}>
                         <i className="bi bi-cart3 me-2"></i>Add to Cart
