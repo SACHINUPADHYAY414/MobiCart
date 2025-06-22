@@ -8,12 +8,7 @@ const slides = [
       "https://static.vecteezy.com/system/resources/previews/002/058/986/non_2x/online-shopping-store-on-website-and-mobile-phone-design-smart-business-marketing-concept-horizontal-view-illustration-free-vector.jpg",
     alt: "Shopping Mall Poster",
   },
-  {
-    id: 2,
-    imageUrl:
-      "https://fastknowers.com/wp-content/uploads/2021/07/phone-screen.jpg",
-    alt: "Smartphone",
-  },
+  
   {
     id: 3,
     imageUrl:
