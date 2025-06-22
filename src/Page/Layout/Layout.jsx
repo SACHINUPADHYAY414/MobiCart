@@ -3,10 +3,10 @@ import ProductCard from "../../Component/ProductCard/ProductCard";
 import { Products } from "../../Data/Product.jsx";
 import { useNavigate } from "react-router-dom";
 
-const categories = ['Mobiles', 'Electronics'];
+const categories = ['Mobiles', 'Tablets','Earbuds'];
 
 const priceRanges = [
-    { label: 'Under 5000', value: 5000 },
+  { label: 'Under 5000', value: 5000 },
   { label: "Below ₹10,000", min: 0, max: 9999 },
   { label: "₹10,000 - ₹20,000", min: 10000, max: 20000 },
   { label: "Above ₹20,000", min: 20001, max: Infinity },
@@ -109,8 +109,13 @@ const Layout = ({ selectedCategory, setSelectedCategory, searchQuery }) => {
           </div>
         </div>
 
-        {/* Product Grid */}
-        <div className="col-md-9" style={{ maxHeight: '100vh', overflowY: 'auto', zIndex: 999 }}>
+        <div className="col-md-9" style={{
+          maxHeight: '100vh',
+          overflowY: 'auto',
+          zIndex: 999,
+          scrollbarWidth: 'none',
+          msOverflowStyle: 'none',
+        }}>
           <div className="row g-2">
             {filteredProducts.length > 0 ? (
               filteredProducts.map(product => (
