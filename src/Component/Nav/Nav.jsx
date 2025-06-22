@@ -58,8 +58,10 @@ function Navbar({ selectedCategory, setSelectedCategory, searchQuery, setSearchQ
               onChange={(e) => setLocalCategory(e.target.value)}
             >
               <option value="All">All</option>
-              <option value="Mobile">Mobile</option>
-              <option value="Electronics">Electronics</option>
+              <option value="Mobiles">Mobile</option>
+              <option value="Tablets">Tablets</option>
+              <option value="Earbuds">Earbuds</option>
+              <option value="Electronic">Electronic</option>
             </select>
 
             <input
@@ -115,7 +117,7 @@ function Navbar({ selectedCategory, setSelectedCategory, searchQuery, setSearchQ
               >
                 <option value="All">All</option>
                 <option value="Mobile">Mobile</option>
-                <option value="Electronics">Electronics</option>
+                <option value="Earbuds">Earbuds</option>
               </select>
 
               <input
@@ -187,7 +189,7 @@ function Navbar({ selectedCategory, setSelectedCategory, searchQuery, setSearchQ
             >
               <option value="All">All</option>
               <option value="Mobile">Mobile</option>
-              <option value="Electronics">Electronics</option>
+              <option value="Earbuds">Earbuds</option>
             </select>
           </div>
           <NavLink to="/features" className="nav-link text-white">

@@ -2,7 +2,7 @@
 const categories = [
     "All",
     "New Releases",
-    "Electronics",
+    "Earbuds",
     "Computers",
     "Mobiles",
 ];

@@ -3,7 +3,7 @@ import ProductCard from "../../Component/ProductCard/ProductCard";
 import { Products } from "../../Data/Product.jsx";
 import { useNavigate } from "react-router-dom";
 
-const categories = ['Mobiles', 'Electronics'];
+const categories = ['Mobiles', 'Tablets','Earbuds'];
 
 const priceRanges = [
   { label: 'Under 5000', value: 5000 },
