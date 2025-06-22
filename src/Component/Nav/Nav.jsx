@@ -61,6 +61,7 @@ function Navbar({ selectedCategory, setSelectedCategory, searchQuery, setSearchQ
               <option value="Mobiles">Mobile</option>
               <option value="Tablets">Tablets</option>
               <option value="Earbuds">Earbuds</option>
+              <option value="Computers">Computers</option>
               <option value="Electronic">Electronic</option>
             </select>
 
